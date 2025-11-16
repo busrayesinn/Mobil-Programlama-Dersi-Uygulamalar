@@ -28,7 +28,7 @@ Temel noktalar:
 * Child, kullanıcı butona bastığında bu fonksiyonu **kendi state’indeki değerle çağırır**
 * Parent kendi state’ini günceller ve ekrana yansıtır
 
-📷 *pictures/app6.1.jpeg*
+![App6.1](pictures/app6.1.jpg)
 
 ---
 
@@ -47,7 +47,7 @@ Temel noktalar:
 * `count` değeri Display’e gönderilir
 * `setCount` fonksiyonu IncrementButton’a gönderilir
 
-📷 *pictures/app6.2.jpeg*
+![App6.2](pictures/app6.2.jpg)
 
 ---
 
@@ -87,7 +87,7 @@ Component katmanları veri taşımadan sadece görünümü sarmalıyor
 
 Yanlış ve doğru state güncelleme örnekleri
 
-📷 *pictures/app6.3.jpeg*
+![App6.3](pictures/app6.3.jpg)
 
 ---
 
