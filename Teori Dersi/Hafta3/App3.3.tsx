@@ -1,4 +1,5 @@
 // App.tsx
+// telefonun karanlık modunun acikligina gore degisen ekran
 import React from 'react';
 import {
   SafeAreaView,
