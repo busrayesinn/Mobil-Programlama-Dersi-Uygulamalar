@@ -2,19 +2,13 @@
 
 ## React Hooks & Bilgi Geçişi
 
-**Ders:** Mobil Programlama
-**Konu:** Hooks, Bilgi Geçişi, Arrow Fonksiyonlar
-**Kaynak:** Hafta 5 Sunumu (BTÜ)
-
----
-
 # 📘 İçindekiler
+- [Hooks (Kancalar)](#hooks-kancalar)
+- [Hook Türleri](#hook-türleri)
+- [Bilgi Geçişi](#bilgi-geçişi)
+- [Özet Tablo](#özet-tablo)
+- [Örnek Kodlar](#örnek-kodlar)
 
-* [1. Hooks (Kancalar)](#1-hooks-kancalar)
-* [2. Hook Türleri](#2-hook-türleri)
-* [3. Bilgi Geçişi](#3-bilgi-geçişi)
-* [4. Özet Tablo](#5-özet-tablo)
-* [5. Örnek Kodlar](#6-örnek-kodlar)
 
 ---
 
@@ -71,24 +65,8 @@ const theme = useContext(ThemeContext);
 
 ---
 
-# 4. ⚡ Arrow Fonksiyonlar (=>)
 
-React projelerinde en çok kullanılan fonksiyon tipidir.
-
-## 📋 Arrow Function Özeti
-
-| Kullanım         | Örnek                           | Açıklama                           |
-| ---------------- | ------------------------------- | ---------------------------------- |
-| Temel tanım      | `const f = () => {}`            | Kısa yazım                         |
-| Tek satır return | `const f = () => 5;`            | return yazmaya gerek yok           |
-| Parametreli      | `x => x * x`                    | Tek parametrede parantez opsiyonel |
-| Çok işlemli      | `() => { ... }`                 | Süslü + return                     |
-| React event      | `onClick={() => setAge(age+1)}` | Tıklamada çalıştırmak için         |
-| this kullanımı   | Sabit this                      | Bağlam problemi yok                |
-
----
-
-# 5. 🧠 Özet Tablo
+# 4. 🧠 Özet Tablo
 
 ## 🟩 React Hook’ları Ne Zaman Kullanıyoruz?
 
@@ -104,7 +82,7 @@ React projelerinde en çok kullanılan fonksiyon tipidir.
 
 ---
 
-# 6. 💻 Örnek Kodlar
+# 5. 💻 Örnek Kodlar
 
 ## 🎯 useMemo ile Liste Filtreleme
 
@@ -117,6 +95,7 @@ const visibleTodos = useMemo(() => {
   });
 }, [todos, tab]);
 ```
+---
 
 ## 🎯 useRef ile DOM Erişimi
 
